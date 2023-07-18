@@ -1,0 +1,38 @@
+@media screen and (max-width:992px){
+    
+    #nav_bars{
+        color: #0B0223;
+        font-size: 22px;
+        display: block;
+    }
+
+    #header .navbar{
+        position: absolute;
+        top: 105%;
+        left: 5%;
+        right: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* text-align: left; */
+        flex-direction: column;
+        background-color: #f5f4f4;
+        box-shadow: -1px 3px 16px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -1px 3px 16px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 3px 16px 0px rgba(0,0,0,0.75);
+        padding: 25px 15px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    #header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    #header .navbar a{
+        margin: 20px 0;
+    }
+
+    #header .navbar .follow_us{
+        margin-top: 10px;
+    }
+}
