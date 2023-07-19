@@ -31,6 +31,7 @@ li{
     box-shadow:0 .3rem 1rem rgba(0,0,0,.1);
     top: 0;
     position: sticky;
+    z-index: 9999;
 }
 
 #header .logo a{
@@ -200,5 +201,198 @@ li{
     height: 100vh;
 }
 
-
 /* Home banner section's css ends */
+
+
+
+/* We Are Gamersection's css starts */
+#we_gamer{
+    background-color: #FFF9FC;
+    padding: 10px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#we_gamer .gamers_content{
+    text-align: right;
+}
+
+
+#we_gamer .gamers_content h3{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+#we_gamer .gamers_content p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#we_gamer .gamers_content .know_more_btn{
+    display: inline-flex;
+    padding: 13px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 40px;
+    background: #FF42A5;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#we_gamer .gamers_content  span{
+    color: #222;
+    font-size: 17px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+#we_gamer .gamers_content  h4{
+    color: #534C64;
+    /* text-align: right; */
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px; 
+}
+
+#we_gamer .gamers_img img{
+    height: 100%;
+    width: 100%;
+}
+
+/* We Are Gamer section's css ends */
+
+
+
+
+/* Online Game section's css starts */
+#online_game{
+    background-color: #FFFFFF;
+    padding: 50px 7%;
+}
+
+#online_game .section_title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#online_game .section_title h2{ 
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 10px 0;
+    color: #0B0223;
+}
+
+#online_game .section_title h2 > span{ 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#online_game .section_title > p{ 
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 10px 0;
+    color: #787285;
+}
+
+#online_game .online_game_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 23px;
+}
+
+#online_game .online_game_container .game_box{
+    /* border: 1px solid tomato; */
+    padding: 20px 10px;
+}
+
+#online_game .online_game_container .game_box .box_img{
+    position: relative;
+}
+
+#online_game .online_game_container .game_box img{
+    width: 100%;
+    height:  auto;
+}
+
+#online_game .online_game_container .game_box .box_img .overlay{
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%;
+    width: 100%;
+    transition: .4s;
+    opacity: 0;
+    background-color: #4D4D4F;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+} 
+
+#online_game .online_game_container .game_box .box_img .overlay:hover{
+    opacity: .7;
+    transition: .5s ease-in;
+    border: 3px solid tomato;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+}
+
+#online_game .online_game_container .game_box .box_img .overlay .play_watch{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    margin-top: 120px;
+    color: #fff;
+    font-size: 23px;
+}
+/* 
+#online_game .online_game_container .game_box .overlay >  */
+    
+
+#online_game .online_game_container .game_box .box_img .overlay .play_watch > a{
+   display: block;
+   /* margin: 80px 60px; */
+   color: #fff;
+   font-size: 30px;
+   font-weight: 800;
+}
+
+#online_game .online_game_container .game_box .overlay > h5{
+    color: #fff;
+}
+
+#online_game .online_game_container .game_box  p{
+    color: #3C354F;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+/* Online Game section's css ends */
