@@ -395,4 +395,282 @@ li{
     line-height: 25px;
     margin-top: 10px;
 }
+
 /* Online Game section's css ends */
+
+
+
+
+
+
+
+/* Instantly section's css starts */
+#instantly{
+    background-color: #fff;
+    padding: 50px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+#instantly .instantly_content {
+    margin-right: 150px;
+}
+
+#instantly .instantly_content h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+#instantly .instantly_content h2 > span{
+    color: #FF42A5;
+}
+
+#instantly .instantly_content p{
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.instantly_img .first_img{
+    position: relative;
+}
+
+.instantly_img .second_img > img{
+   position: absolute;
+   margin-top: -250px;
+   margin-left: -100px;
+   width: auto;
+   height: auto;
+}
+
+
+/* Instantly section's css ends */
+
+
+
+
+
+/* Careers section's css starts */
+#careers{
+    background: url(../Images/banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #FF42A5;
+    padding: 50px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 140px;
+}
+
+#careers .careers_content {
+    /* margin-top: -50px; */
+    color: #fff;
+}
+
+#careers .careers_content h3{
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: .4px;
+    margin-bottom: 15px;
+}
+
+#careers .careers_content p{
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#careers .careers_content .career_list{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+
+#careers .careers_content .career_list ul li{
+    margin: 13px 0;
+}
+
+#careers .careers_content > a{
+    color: #F948B2;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background-color: #fff;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+#careers .careers_content > a:hover{
+    letter-spacing: .5px;
+    
+}
+
+#careers .careers_img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Careers section's css ends */
+
+
+
+
+
+/* Games Type section's css starts */
+#games_type{
+    background-color: #FFF9FC;
+    padding: 50px 10%;
+}
+
+#games_type .first_game_container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+/* #games_type .second_game_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-left: 20px;
+} */
+
+.game_type_box{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.game_type_box img{
+    width: 40px;
+    height: 40px;
+   
+}
+
+.game_type_box span{
+    margin-left: 10px;
+}
+
+#games_type .second_game_container .game_type_box{
+    width: 80%;
+}
+
+/* Games Type section's css ends */
+
+
+
+/* Footer section's css starts */
+#footer{
+    background-color: #0B0223;
+    padding: 50px 7%;
+    text-align: center;
+}
+
+#footer .footer_logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .footer_logo a > img{
+    width: 70px;
+    height: 30px;
+}
+
+#footer .footer_logo a > h3{
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: .5px;
+    margin-left: 6px;
+}
+
+#footer .footer_logo a > h3 > span{
+
+    color: #FF42A5;
+
+}
+
+#footer .other_content .pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+#footer .other_content .pages li a{
+    color: #fff;
+    font-size: 18px;
+    margin: 0 20px;
+    line-height: 27px;
+}
+
+#footer .other_content .social_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .other_content .social_icons li a{
+    color: #fff;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+#footer .other_content .support_help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#footer .other_content .support_help li a{
+    color: #787285;
+    font-size: 18px;
+    margin: 0 15px;
+    line-height: 27px;
+}
+
+
+#footer .other_content p{
+    color: #787285;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+/* Footer Type section's css ends */
