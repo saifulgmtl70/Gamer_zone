@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 
 
 /* header section's css starts */
@@ -102,4 +106,99 @@ a{
     font-size: 22px;
     display: none;
 }
+
 /* header section's css ends */
+
+
+
+
+
+
+/* header section's css ends */
+
+
+
+
+
+/* Home banner section's css starts */
+#home_banner{
+    background: url(../Images/banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 500px center;
+    padding: 50px 7%;
+    height: 99vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home_banner .banner_content{
+    margin-top:  -70px;
+}
+
+#home_banner .banner_content p{
+    color: #0B0223;
+    font-size: 40px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#home_banner .banner_content h3{
+    font-size: 90px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+#home_banner .banner_content ul {
+    margin-bottom: 30px;
+}
+
+#home_banner .banner_content ul li{
+    margin: 16px 0;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#home_banner .banner_content ul li i{
+    margin: 0 6px;
+    color: #946b85;
+}
+
+#home_banner .banner_content > a{
+    margin: 0 6px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 13px 30px;
+    letter-spacing: 1.5px;
+}
+
+#home_banner .banner_content > .sign_int_btn{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #99C342 0%, #FF42A5 100%));
+}
+
+#home_banner .banner_content > .go_rogue_btn{
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.baner_img img{
+    width: 40vw;
+    height: 100vh;
+}
+
+
+/* Home banner section's css ends */
