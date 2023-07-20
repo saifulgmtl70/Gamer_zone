@@ -1,5 +1,5 @@
 @media screen and (max-width:992px){
-    
+     
     #nav_bars{
         color: #0B0223;
         font-size: 22px;
@@ -36,13 +36,17 @@
         margin-top: 10px;
     }
 
-
+    
     #home_banner{
-       
-        flex-direction: column-reverse;
-        gap: 30px;
+        flex-direction: column;
+        gap: 100px;
+        padding: 50px 7%;
         background: none;
-        padding-top: 1500px;
+    }
+
+    #home_banner .banner_img img{
+        width: 100%;
+        height: 100%;
     }
 
     #home_banner .banner_content{
@@ -51,39 +55,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        /* height: 100%;
-        width: 100%;  */
         text-align: center;
-        padding: 100px;
-    }
-
-
-    #home_banner .banner_content ul li{
-       
-        font-size: 18px;
-
-    
-    }
-    
-    .baner_img img{
+        padding: 30px;
+        height: 100%;
         width: 100%;
-        height: 100vh;
-        margin: 0 auto;
-    }
-
-
-    #home_banner .banner_content h3{
-        font-size: 80px;
-       
-    }
-
-    #home_banner .banner_content p{
-        color: #0B0223;
-        font-size: 33px;
-        letter-spacing: .5px;
-        text-transform: uppercase;
-        font-weight: 600;
-        margin-bottom: 20px;
     }
 
     #we_gamer{
@@ -109,140 +84,154 @@
         margin-top: 20px;
     }
 
-
-    #instantly{
-        flex-direction: column;
+    #online_game .online_game_container .game_box .box_img .overlay .play_watch{
+        
+       margin-top: 360px;
     }
 
-    #instantly .instantly_content {
-        margin-right: 0;
+    #play_online{
+        flex-direction: column-reverse;
+    }
+
+    #play_online .play_online_content {
+        width: 100%;
+        margin-left: 0;
         text-align: center;
     }
+    
 
-    .instantly_img{
-        padding: 50px;
-    }
-
-    .instantly_img .first_img{
+    #play_online .play_online_img {
         width: 100%;
-        height: 100%;
     }
 
+    /* #play_online .play_online_img .first_img{
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        position: relative;
+    } */
+
+
+    #play_online{
+        padding: 0 5%;
+    }
+
+    
+    #play_online .play_online_img .second_img{
+        width: auto;
+        height: auto;
+        position: absolute;
+        /* display: block; */
+        margin-left: -300px;
+        margin-top: 470px;
+    }
 
     #careers{
         flex-direction: column;
         gap: 50px;
+        margin-top: 200px;
     }
     
-    #games_type{
-        background-color: #FFF9FC;
-        padding: 20px 5%;
-    }
-
     #games_type .first_game_container{
 
         grid-template-columns: repeat(3, 1fr);
         padding: 0;
        
     }
-    
+
+    #games_type{
+        background-color: #FFF9FC;
+        padding: 50px 5%;
+    }
+
+
     #footer .other_content .pages,
     #footer .other_content .social_icons{
         flex-wrap: wrap;
     }
-
     
-
 
 }
 
-@media screen and (max-width:590px){
-    #home_banner{
-        padding-top: 1100px;
-    }
 
-    
-    #home_banner .banner_content ul li{
-       
-        font-size: 17px;
-    }
-
-    #home_banner .banner_content h3{
-        font-size: 60px;
-        letter-spacing: 2px;
-       
-    }
-
-    #home_banner .banner_content p{
-        font-size: 26px;
-    }
-
+@media screen and (max-width: 460px) {
     #home_banner .banner_content > a{
         display: block;
-        margin: 12px 0;
+        margin: 20px 0;
     }
 
-    .baner_img img{
-        width: 100%;
-        height: 100%;
-        padding: 0;
-    }
-
-    .instantly_img .first_img{
-        width: 100%;
-        height: 100%;
-    }
-    
-
-    
-}
-
-@media screen and (max-width: 520px){
-    #home_banner{
-        padding-top: 1000px;
-    }
-
-    .instantly_img .second_img > img{
-        margin-top: 0;
-        margin-left: 0;
-        margin-bottom: 300px;
+    #online_game .online_game_container .game_box .box_img .overlay .play_watch{
+        
+        margin-top: 120px;
      }
 
-     .instantly_img{
-        margin-bottom: 40px;
-     }
 
-     .instantly_img .first_img{
-        width: 100%;
-        height: 100%;
-    }
+     #games_type .first_game_container{
 
-    #careers{
-        margin-top: 250px;
-    }
-
-}
-
-@media screen and (max-width:630px){
-    #games_type .first_game_container{
-
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         padding: 0;
        
     }
+    
+}
 
-    .instantly_img .first_img{
-        width: 100%;
-        height: 100%;
+
+@media screen and (max-width: 700px) {
+    
+    #online_game .online_game_container .game_box .box_img .overlay .play_watch{
+        
+        margin-top: 250px;
+     }
+
+     #play_online .play_online_img .second_img{
+        width: auto;
+        height: auto;
+        position: absolute;
+        /* display: block; */
+        margin-left: -285px;
+        margin-top: 320px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    
+    #online_game .online_game_container .game_box .box_img .overlay .play_watch{
+        
+        margin-top: 250px;
+     }
+
+     #play_online{
+        margin-top: -100px;
+     }
+
+     #play_online .play_online_img .second_img{
+        width: auto;
+        height: auto;
+        position: absolute;
+        /* display: block; */
+        margin-left: -250px;
+        margin-top: 140px;
     }
 }
 
 
-@media screen and (max-width:420px){
+@media screen and (max-width: 590px) {
+    
+    #play_online {
+        padding-bottom: 100px;
+    }
+    #play_online .play_online_img .second_img{
+        width: auto;
+        height: auto;
+        position: absolute;
+        /* display: block; */
+        margin-left: -295px;
+        margin-top: 280px;
+    }
 
-    .instantly_img{
-        margin-bottom: 40px;
-     }
+    #games_type {
+        padding: 50px 5%;
+    }
 
     #games_type .first_game_container{
 
@@ -250,30 +239,4 @@
         padding: 0;
        
     }
-
-
-
-    .instantly_img .first_img img{
-        width: 100%;
-        height: 100%;
-    }
-
-    .instantly_img .second_img > img{
-        margin-top: 0;
-        margin-left: 0;
-        width: 265px;
-        height: 220px;
-     }
-}
-
-
-
-@media screen and (max-width:460px){
-    #home_banner .banner_content{
-        width: 100%;
-        height: auto;
-        padding: 30px;
-    }
-
-  
 }
