@@ -62,7 +62,7 @@
     }
 
     #we_gamer{
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 25px;
         background: none;
         
